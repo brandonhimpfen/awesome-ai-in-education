@@ -8,8 +8,6 @@
 [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) 
 [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-📌 This repository is archived with Zenodo and can be cited using the DOI above.
-
 > A curated list of resources for artificial intelligence in education, intelligent tutoring systems, automated grading, adaptive learning, and pedagogical AI frameworks.
 
 Integrating artificial intelligence into educational settings enables personalized learning paths, automated administrative workflows, adaptive feedback loops, and enhanced accessibility for learners worldwide. This list is intended for educators, edtech developers, pedagogical researchers, and instructional designers.
