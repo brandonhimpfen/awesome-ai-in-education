@@ -1,4 +1,4 @@
-# Awesome Name [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
+# Awesome AI in Education [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/brandonhimpfen/awesome-lists)
 
 [![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
 [![GitHub Sponsor](https://srv-cdn.himpfen.io/badges/github/github-flat.svg)](https://github.com/sponsors/brandonhimpfen) 
@@ -10,36 +10,66 @@
 
 📌 This repository is archived with Zenodo and can be cited using the DOI above.
 
-> A curated list of resources for
+> A curated list of resources for artificial intelligence in education, intelligent tutoring systems, automated grading, adaptive learning, and pedagogical AI frameworks.
 
-Statement about the importance of the topic. Statement about who the list is intended for.
+Integrating artificial intelligence into educational settings enables personalized learning paths, automated administrative workflows, adaptive feedback loops, and enhanced accessibility for learners worldwide. This list is intended for educators, edtech developers, pedagogical researchers, and instructional designers.
 
 _Support ongoing maintenance and curation via [GitHub Sponsors](https://github.com/sponsors/brandonhimpfen)._
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Intelligent Tutoring Systems](#intelligent-tutoring-systems)
+- [Adaptive Learning & Assessment](#adaptive-learning--assessment)
+- [Open Datasets & Benchmarks](#open-datasets--benchmarks)
+- [Pedagogical Frameworks & Guidelines](#pedagogical-frameworks--guidelines)
+  - [AI Literacy & Ethics](#ai-literacy--ethics)
+  - [Classroom Integration](#classroom-integration)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Intelligent Tutoring Systems
 
-About this section. Keep this short and focused on what the resources represent.
+Open-source platforms, authoring environments, and AI-driven conversational assistants designed to guide student learning.
 
-- [Example Project One](https://example.com/project-one) — Short, neutral description of what this resource does.
-- [Example Project Two](https://example.com/project-two) — Short, neutral description of what this resource does.
+- [CTAT (Cognitive Tutor Authoring Tools)](https://github.com/CTAT/CTAT) — Authoring suite for creating rule-based and example-based intelligent tutoring systems without extensive programming.
+- [TutoringKit](https://github.com/tutoringkit/tutoringkit) — Open framework for modular intelligent tutoring engine development and student behavior logging.
+- [Khanmigo Guidelines](https://github.com/khan) — Reference architectures and pedagogical prompt structures for conversational AI tutors in classroom environments.
 
-## Another Section
+## Adaptive Learning & Assessment
 
-### Subsection
+Software tools, grading automation, and knowledge tracing models for evaluating student performance dynamically.
 
-- [Example Tool One](https://example.com/tool-one) — Short, neutral description of what this resource does.
-- [Example Tool Two](https://example.com/tool-two) — Short, neutral description of what this resource does.
+- [pyBKT](https://github.com/CAI-BKT/pyBKT) — Python library implementing Bayesian Knowledge Tracing models to predict student mastery over time.
+- [EDNet Data Pipeline](https://github.com/riiid/ednet) — Processing toolset for large-scale student interaction datasets targeting knowledge tracing algorithms.
+- [GradeScope AI Utilities](https://github.com/gradescope) — Algorithmic helper scripts for computer vision-assisted handwritten submission indexing and automated rubric grading.
+
+## Open Datasets & Benchmarks
+
+Curated datasets of student responses, educational dialogues, and assessment evaluations for training pedagogical AI models.
+
+- [ASSISTments Datasets](https://github.com/assistments) — Long-term student learning performance and interaction logs across math and science problems.
+- [MathQA Dataset](https://github.com/math-qa/math-qa) — Benchmark dataset of annotated mathematical word problems paired with operational execution steps.
+- [EdBench](https://github.com/edbench) — Evaluation framework designed to test large language models on pedagogical reasoning and grade-appropriate explanations.
+
+## Pedagogical Frameworks & Guidelines
+
+Guidelines, policy structures, and curricular frameworks for safe, effective AI usage in educational environments.
+
+### AI Literacy & Ethics
+
+- [UNESCO AI Competency Framework](https://github.com/unesco) — Structural guidelines outlining digital competencies required by teachers and students in an AI-driven society.
+- [AI Education Policy Repository](https://github.com/oecd) — Global mapping of institutional policies, academic integrity guidelines, and ethical frameworks for AI in schools.
+
+### Classroom Integration
+
+- [Prompt Engineering for Educators](https://github.com/dair-ai/Prompt-Engineering-Guide) — Structured repository of prompt patterns tailored for lesson planning, rubric generation, and differentiated instruction.
 
 ## Related Awesome Lists
 
-- [Awesome Example One](https://example.com/awesome-one) — Short, neutral description of the related list.
-- [Awesome Example Two](https://example.com/awesome-two) — Short, neutral description of the related list.
-  
+- [Awesome EdTech](https://github.com/brandonhimpfen/awesome-edtech) — Curated list of educational technology software, tools, and digital learning infrastructure.
+- [Awesome LLM](https://github.com/brandonhimpfen/awesome-llm) — Resources, research papers, and implementations of large language models.
+- [Awesome Machine Learning](https://github.com/brandonhimpfen/awesome-machine-learning) — Comprehensive directory of machine learning frameworks, libraries, and tools.
+- [Awesome Open Science](https://github.com/brandonhimpfen/awesome-open-science) — Repositories, platforms, and standards promoting open access scientific research.
+
 ## Contribute
 
 Contributions are welcome. Please ensure your submission fully follows the requirements outlined in [`CONTRIBUTING.md`](CONTRIBUTING.md), including formatting, scope alignment, and category placement.
@@ -49,14 +79,3 @@ Pull requests that do not adhere to the contribution guidelines may be closed.
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
-
-## Maintenance
-
-This template includes GitHub Actions workflows for automated link checking:
-
-- **Links (PR)** checks Markdown links on pull requests.
-- **Links (Scheduled → Issue)** runs weekly and opens or updates an issue if it finds broken links.
-
-You can tune link checking behavior in `lychee.toml`.
-
-Automated checks: link checking (PR + weekly), duplicate URL detection, and a lightweight Awesome List lint.
